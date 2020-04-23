@@ -66,6 +66,7 @@ class _CategoryState extends State<Category> {
       ),
       body: SingleChildScrollView(
         child: Container(
+          alignment: Alignment.center,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
